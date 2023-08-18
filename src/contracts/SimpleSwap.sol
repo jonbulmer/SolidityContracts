@@ -4,7 +4,6 @@ pragma solidity 0.8.17;
 import { ISimpleSwap } from "./interfaces/ISwapSwap.sol";
 import { ERC20 } from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import { Math } from "@openzeppelin/contracts/utils/math/Math.sol";
-import { console } from "hardhat/console.sol";
 
 contract SimpleSwap is ISimpleSwap, ERC20 {
     address tokenA;
