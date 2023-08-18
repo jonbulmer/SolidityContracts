@@ -14,8 +14,21 @@ module.exports = {
       version: "0.8.17",
       opmimizer: {
         enabled: true,
-        runs:200  
-      }
+        runs:1000  
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "evm.bytecode",
+            "evn.deployedBytecode",
+            "devdoc",
+            "userdoc",
+            "metadata",
+            "abi"
+          ]
+        }
+      },
+      libraries: {}
     }
   }
 }

@@ -2,5 +2,8 @@
   "dependencies": {
     "ethereumjs-tx": "^2.1.2",
     "web3": "^4.0.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.9.3"
   }
 }
