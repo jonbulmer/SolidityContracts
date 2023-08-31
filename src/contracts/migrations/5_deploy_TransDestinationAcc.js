@@ -1,5 +1,5 @@
-const TransferToDesinationAccount =  artifacts.TransferToDesinationAccount('TransferToDestinationAccount');
+const TransferToDestinationAccount =  artifacts.require('TransferToDestinationAccount');
 
 module.exports = function (deployer) {
-    deployer.deploy(TransferToDesinationAccount);
+    deployer.deploy(TransferToDestinationAccount);
 }
